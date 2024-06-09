@@ -1,0 +1,25 @@
+GET http://localhost:3000/songs
+
+GET http://localhost:3000/songs/1
+
+POST http://localhost:3000/songs
+{
+  "title": "Song 1",
+  "artist": "Artist 1",
+  "genre": "Genre 1",
+  "album": "Album 1",
+  "albumImageUrl": "http://www.album1.com",
+  "youtubeId": "http://www.youtube.com"
+}
+
+PUT http://localhost:3000/songs/1
+{
+  "title": "Song 1",
+  "artist": "Artist 1",
+  "genre": "Genre 1",
+  "album": "Album 1",
+  "albumImageUrl": "http://www.album1.com",
+  "youtubeId": "http://www.youtube.com"
+}
+
+DELETE http://localhost:3000/songs/1
