@@ -5,6 +5,14 @@ GET http://localhost:3000/songs/1
 
 ###
 POST http://localhost:3000/songs
+Content-Type: application/json
+
+    {
+        "title": "Song 1",
+        "artists": ["Artist1"],
+        "duration": "03:00",
+        "relase_date": "2020-01-01"
+    }
 
 ###
 PUT http://localhost:3000/songs/1
